@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/36284a76ca.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="contenedor">
+        <h1>Spotify Card</h1>
+        <div class="tarjeta">
+            <div class="cabeza">
+                <i class="fa-solid fa-angle-down cabeza__icono"></i>
+                <div class="cabeza__informacion">
+                    <p class="cabeza__info">Reproduciendo desde artista</p>
+                    <h3 class="cabeza__artista">Lil Peep</h3>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical cabeza__icono"></i>
+            </div>
+            <div class="cuerpo">
+                <img class="cuerpo__imagen" src="https://upload.wikimedia.org/wikipedia/en/c/ca/Lil_Peep_2015_Mixtape_Live_Forever_Cover.jpg" alt="">
+                
+                <div class="cuerpo__informacion">                    
+                    <div class="cuerpo__texto">
+                        <h3 class="cuerpo__nombrecancion">live forever</h3>
+                        <div class="cuerpo__nombreartista">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                stroke="#77767b" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                                class="icon icon-tabler icons-tabler-outline icon-tabler-explicit">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path d="M4 4m0 1a1 1 0 0 1 1 -1h14a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1 -1z" />
+                                <path d="M14 8h-4v8h4" />
+                                <path d="M14 12h-4" />
+                            </svg>
+                            <p>Lil Peep</p>
+                        </div>
+                    </div>
+                    <div class="cuerpo__icono">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                </div>
+
+                <img class="cuerpo__barra" src="img/bar.png" alt="">
+                <div class="cuerpo__minutos">
+                    <p class="cuerpo__tiempo">1:50</p>
+                    <p class="cuerpo__tiempo">2:40</p>
+                </div>
+
+                <div class="cuerpo__player">
+                    <i class="fa-regular fa-shuffle cuerpo__playericonshuffle"></i>
+                    <i class="fa-solid fa-backward-step cuerpo__playericonrow"></i>
+                    <i class="fa-solid fa-circle-pause cuerpo__playericonpause"></i>
+                    <i class="fa-solid fa-forward-step cuerpo__playericonrow"></i>
+                    <i class="fa-solid fa-repeat cuerpo__playericon"></i>
+                </div>
+
+                <div class="cuerpo__links">
+                    <div class="cuerpo__sistema">
+                        <i class="fa-solid fa-laptop cuerpo__sistema--icon"></i>
+                        <p class="cuerpo__sistema--nombre">archpcbre</p>
+                    </div>
+                    <div class="cuerpo__compartir">
+                        <i class="fa-light fa-share-nodes cuerpo__compartir--share"></i>
+                        <i class="fa-solid fa-bars cuerpo__compartir--bar"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

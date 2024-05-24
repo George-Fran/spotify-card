@@ -1,0 +1,150 @@
+:root {
+    --blanco: #fff;
+    --oscuro: #000;
+    --principal: #1DB954;
+    --fondo: #3d3d3d;
+}
+/* Globales */
+html {
+    font-size: 62.5%;
+    box-sizing: border-box; 
+}
+
+*,
+*:before
+*:after {
+    box-sizing: inherit; 
+} 
+
+body {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    color: var(--principal);
+}
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.tarjeta{
+    background: rgb(172,172,172);
+    background: linear-gradient(184deg, rgba(172,172,172,1) 0%, rgba(121,120,120,1) 35%, rgba(0,0,0,1) 100%);  
+    width: 30rem;
+    color: var(--blanco);
+    padding: 1rem;
+}
+.cabeza{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.cabeza__informacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cabeza__info{
+    margin: 0;
+}
+.cabeza__artista{
+    margin: 0;
+}
+.cuerpo{
+    margin-top: 2rem;
+    padding: 1rem;
+}
+.cuerpo__imagen{
+    width: 100%;
+    border-radius: .7rem;
+}
+.cuerpo__informacion{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.cuerpo__nombrecancion{
+    margin: 0;
+    margin-left: .2rem;
+}
+.cuerpo__nombreartista{
+    display: flex;
+    align-items: center;
+}
+.cuerpo__nombreartista svg{
+    margin-right: .2rem;
+}
+.cuerpo__nombreartista p{
+    margin: 0;
+    color: #a5a5a5;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.cuerpo__icono{
+    font-size: 2.5rem;
+    color: var(--principal);
+}
+
+.cuerpo__barra{
+    width: 100%;
+}
+
+.cuerpo__minutos{
+    display: flex;
+    justify-content: space-between;
+}
+.cuerpo__tiempo{
+    margin: 0;
+    font-size: 1.2rem;
+}
+.cuerpo__player{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cuerpo__playericonshuffle{
+    font-size: 3rem;
+    color: var(--principal);
+}
+.cuerpo__playericonrow{
+    font-size: 2rem;
+}
+.cuerpo__playericonpause{
+    font-size: 5rem;
+}
+.cuerpo__links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cuerpo__sistema{
+    display: flex;
+    align-items: center;
+}
+.cuerpo__sistema--icon{
+    color: var(--principal);
+    margin-right: .7rem;
+    font-size: 1.2rem;
+}
+.cuerpo__sistema--nombre{
+    color: var(--principal);
+    font-size: 1.2rem;
+}
+.cuerpo__compartir--share{
+    margin-right: 3rem;
+    font-size: 2rem;
+}
+.cuerpo__compartir--bar{
+    font-size: 1.7rem;
+}
